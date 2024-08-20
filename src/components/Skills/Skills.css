@@ -1,0 +1,27 @@
+.skills {
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .skill-tag {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-tag:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
