@@ -1,0 +1,20 @@
+.categories {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px 0;
+}
+
+.category {
+	background-color: var(--primary-blue);
+	color: white;
+	padding: 8px 15px;
+	margin: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.category:hover, .category.active {
+	background-color: var(--primary-color);
+}

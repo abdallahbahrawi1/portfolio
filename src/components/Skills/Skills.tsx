@@ -12,10 +12,10 @@ function Skills() {
 
   return (
     <section className="skills">
-      <h2>Technical Expertise</h2>
+      <h2 className="section-title">Technical Expertise</h2>
       <div className="skill-list">
         {skillList.map((skill, index) => (
-          <span className="skill-tag" key={index}>
+          <span className="skill-item" key={index}>
             {skill}
           </span>
         ))}

@@ -1,0 +1,20 @@
+.about {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+}

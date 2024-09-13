@@ -1,5 +1,6 @@
 :root {
 	--primary-color: #3a506b;
+	--primary-blue: #007bff;
 	--secondary-color: #5bc0be;
 	--accent-color: #ffd700;
 	--bg-color: #f0f4f8;
@@ -20,4 +21,8 @@ body, html {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
 }
