@@ -17,14 +17,14 @@ function App() {
       <Nav />
       <div className="container">
         <Routes>
-          <Route path="/" element={
+          <Route path="/portfolio" element={
             <>
             <Projects />
               <Skills />
               <AboutMe />
             </>} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:postId" element={<BlogPost />} />
+          <Route path="/portfolio/blog" element={<Blog />} />
+          <Route path="/portfolio/blog/:postId" element={<BlogPost />} />
         </Routes>
       </div>
       <Footer />

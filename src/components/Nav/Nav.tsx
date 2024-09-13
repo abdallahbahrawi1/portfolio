@@ -4,8 +4,8 @@ import './Nav.css';
 const Nav: React.FC = () => (
   <nav className="nav">
     <ul>
-      <li><Link to="/">Portfolio</Link></li>
-      <li><Link to="/blog">Blog</Link></li>
+      <li><Link to="/portfolio">Portfolio</Link></li>
+      <li><Link to="/portfolio/blog">Blog</Link></li>
     </ul>
   </nav>
 );
