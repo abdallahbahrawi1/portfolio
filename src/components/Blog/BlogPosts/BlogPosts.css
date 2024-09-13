@@ -30,8 +30,8 @@
 }
 
 .blog-post-title {
-  color: var(--primary-color);
-  font-size: 1.8em;
+  /* color: var(--primary-color); */
+  /* font-size: 1 rem important; */
   margin: 0 0 15px;
 }
 

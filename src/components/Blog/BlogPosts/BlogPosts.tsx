@@ -26,7 +26,6 @@ const BlogPosts= ({ visiblePosts }: BlogPostsProps) => {
               <div className="blog-post-meta">{post.meta}</div>
               <p className="blog-post-preview">{post.preview}</p>
               <Link to={`/blog/${post.id}`} className="read-more">Read more</Link>
-
             </div>
           </article>
         ))}

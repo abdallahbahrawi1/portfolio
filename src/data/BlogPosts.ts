@@ -1,4 +1,4 @@
-import FHIR  from '../assets/img/FHIR.png'
+import DeepRacer  from '../assets/img/AWS DeepRacer.jpeg'
 
 
 export enum Category {
@@ -25,7 +25,7 @@ export const Posts: IBlogPost[] = [
 		title: 'My Journey with AWS DeepRacer: A Hands-On Dive into Reinforcement Learning',
 		meta: 'By Abdallah Bahrawi | September 1, 2024 | career',
 		preview: 'My journey with AWS DeepRacer began with a simple LinkedIn discovery. As someone deeply interested in AI and machine learning, I was naturally drawn to this innovative platform.',
-		imgSrc: FHIR,
+		imgSrc: DeepRacer,
 		body: `
 		<h2>Discovering AWS DeepRacer</h2>
 		<p>My journey with AWS DeepRacer began with a simple LinkedIn discovery. As someone deeply interested in AI and machine learning, I was naturally drawn to this innovative platform. The AWS DeepRacer Student version stood out as an excellent entry point into the industry, offering a unique blend of competition and learning. The challenge of competing for a scholarship, coupled with the gamified learning experience, made it an exciting way to delve into reinforcement learning.</p>
