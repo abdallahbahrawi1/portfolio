@@ -9,6 +9,7 @@ import Skills from './components/Skills/Skills';
 import Blog from './components/Blog/Blog';
 import BlogPost from './components/Blog/BlogPost/BlogPost';
 import AboutMe from './components/AboutMe/AboutMe';
+import PortfolioSection from './components/PortfolioSection/PortfolioSection';
 
 function App() {
   return (
@@ -19,10 +20,12 @@ function App() {
         <Routes>
           <Route path="/portfolio" element={
             <>
-            <Projects />
+              <PortfolioSection />
+              <Projects />
               <Skills />
               <AboutMe />
-            </>} />
+            </>
+          } />
           <Route path="/portfolio/blog" element={<Blog />} />
           <Route path="/portfolio/blog/:postId" element={<BlogPost />} />
         </Routes>

@@ -10,17 +10,17 @@ const AboutMe = () => {
         <p>🚀 <strong>Why Work With Me?</strong></p>
         <ul>
         <li>Proven Expertise: From healthcare management systems to travel apps, I’ve tackled various projects demonstrating my versatility and commitment to delivering high-quality work.</li>
-        <li>Modern Tech Stack: Proficient in React, Node.js, Express.js, SQL, Electron, TypeScript, and more.</li>
+        <li>Modern Tech Stack: Proficient in React, Node.js, Express.js, SQL, Electron.js, TypeScript, and more.</li>
         <li>Client-Centric Approach: I take pride in understanding your needs, offering tailored solutions, and ensuring your vision is brought to life efficiently and reliably.</li>
         </ul>
 
         <p>🎯 <strong>Key Skills:</strong></p>
         <ul>
-        <li>Frontend: React.js, Vue.js, TailwindCSS, Next.js</li>
-        <li>Backend: Node.js, Express.js, REST APIs, GraphQL</li>
+        <li>Frontend: React.js, Vue.js, TailwindCSS</li>
+        <li>Backend: Node.js, Express.js, REST APIs</li>
         <li>Database: MySQL, MongoDB</li>
         <li>Desktop Apps: Electron</li>
-        <li>Cloud: AWS (EC2, S3), CI/CD pipelines</li>
+        <li>Cloud: AWS (EC2, S3)</li>
         <li>Dev Tools: Git, GitHub, Docker</li>
         </ul>
 
