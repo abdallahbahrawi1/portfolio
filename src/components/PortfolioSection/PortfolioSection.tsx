@@ -46,7 +46,7 @@ const PortfolioSection = () => {
           <div className="project-image-custom">
             <img src={lexilearn} alt="Modern UI design showcasing intuitive navigation and sleek aesthetics" />
             <div className="image-overlay-custom">
-              <p className="overlay-text-custom">A modern extension with simple navigation and personalized paths for effective language learning.</p>
+              <p className="overlay-text-custom">A modern extension with simple navigation, for effective language learning.</p>
             </div>
           </div>
         </div>
