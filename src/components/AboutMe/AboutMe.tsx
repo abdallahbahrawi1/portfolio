@@ -19,7 +19,7 @@ const AboutMe = () => {
         <li>Frontend: React.js, Vue.js, TailwindCSS</li>
         <li>Backend: Node.js, Express.js, REST APIs</li>
         <li>Database: MySQL, MongoDB</li>
-        <li>Desktop Apps: Electron</li>
+        <li>Desktop Apps: ElectronJs</li>
         <li>Cloud: AWS (EC2, S3)</li>
         <li>Dev Tools: Git, GitHub, Docker</li>
         </ul>
